@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Registration form</h1>
+      </div>
+
+      <div class="body con">
+        <form action="connect.php" method="post">
+        <div class="fname item">
+          <label for="fname" class="Box">First name :</label>
+          <input
+            type="text"
+            class="ibox"
+            id="fname"
+            placeholder="First name"
+            name="fname"
+            required
+
+          />
+        </div>
+
+        <div class="lname item">
+          <label for="lname" class="Box">Last name :</label>
+          <input
+            type="text"
+            class="ibox"
+            id="lname"
+            placeholder="Last name"
+            name="lname"
+            required
+          />
+        </div>
+
+        <div class="Email item">
+          <label for="email" class="Box">Enter email:</label>
+          <input
+            type="email"
+            class="ibox"
+            id="email"
+            placeholder="abc@gmail.com"
+            name="email"
+            required
+          />
+        </div>
+
+        <div class="Pass item">
+          <label for="Pass" class="Box">Password:</label>
+          <input
+            type="password"
+            class="ibox"
+            id="Pass"
+            placeholder="Enter password"
+            name="password"
+            required
+          />
+        </div>
+
+        <div class="contact item">
+          <label for="contact" class="Box">Contact no:</label>
+          <input
+            type="tel"
+            class="ibox"
+            id="contact"
+            maxlength="10"
+            placeholder="Enter contact"
+            name="contact"
+            required
+          />
+        </div>
+
+        <div class="clg-nm item">
+          <label for="Pass" class="Box">Enter collage name</label>
+          <input
+            type="text"
+            class="ibox"
+            id="clg-nm"
+            placeholder="Enter clollage name"
+            name="collage"
+            required
+          />
+        </div>
+        
+        <div class="group-mem item">
+          <label for="group-mem" class="Box">Group member:</label>
+          <select name="group-mem" id="group-mem" class="gmem" name="member">
+            <option value="one">1</option>
+            <option value="two">2</option>
+            <option value="three">3</option>
+            <option value="four">4</option>
+            <option value="five"> 5</option>
+          </select>
+        </div>
+
+        <div class="gender item" >
+          <div class="radio">
+            <label for="gender" class="Box">Gender:</label><br />
+            <label for="male" class="rname">Male</label>
+            <input type="radio" name="gender" id="male" class="rbtn" value="m"/>
+            <label for="female" class="rname">Female</label>
+            <input type="radio" name="gender" id="female" class="rbtn" value="f"/>
+            <label for="other" class="rname">Other</label>
+            <input type="radio" name="gender" id="other" class="rbtn" value="o"/>
+          </div>    
+        </div>
+      </div>
+
+      <div class="button">
+        <button class="Register">Register</button>
+      </div>
+      </form>
+    </div>
+  </body>
+</html>

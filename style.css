@@ -1,0 +1,84 @@
+.container {
+  width: 600px;
+  height: 700px;
+  margin: 0 auto;
+  border: 1px solid rgb(7, 7, 7);
+  background-color: rgb(255, 217, 0);
+}
+
+.header,
+.footer {
+  text-align: center;
+  margin-bottom: 10px;
+  color: blue;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-top: 3px;
+}
+
+.body.con {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Adds space between the form items */
+  align-items: center;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.75rem;
+}
+
+.Box {
+  margin-bottom: 3px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.ibox {
+  width: 400px;
+  height: 2rem;
+  font-size: 16px;
+}
+
+.radio {
+  margin-right: 11.5rem;
+  margin-top: 1rem;
+}
+
+.rname {
+  font-size: 1.2rem;
+}
+
+.group-mem {
+  margin-right: 15rem;
+  margin-top: 0.75rem;
+}
+
+.gmem {
+  height: 2rem;
+  font-size: 1.2rem;
+}
+
+.button {
+  text-align: center;
+  margin-top: 1 px;
+  margin-bottom: 10px;
+}
+
+.Register {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-top: 8px;
+}
+
+.rbtn {
+  font-size: 2rem;
+}
